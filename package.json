@@ -1,0 +1,21 @@
+{
+  "name": "exercise-javascript-movies-database",
+  "version": "1.0.0",
+  "description": "Exercise on array, object manipulation and ES6 notation",
+  "main": "index.js",
+  "repository": "https://github.com/stackerine/exercise-javascript-movies-database.git",
+  "author": "jsouied@stackerine.com",
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.25.0"
+  },
+  "scripts": {
+    "test:turnHoursToMinutes": "ava turnHoursToMinute.test.js",
+    "test:ratesAverage": "ava ratesAverage.test.js",
+    "test:dramaMoviesRate": "ava dramaMoviesRate.test.js",
+    "test:orderByDuration": "ava orderByDuration.test.js",
+    "test:howManyMovies": "ava howManyMovies.test.js",
+    "test:orderAlphabetically": "ava orderAlphabetically.test.js",
+    "test:bestYearAvg": "ava bestYearAvg.test.js"
+  }
+}

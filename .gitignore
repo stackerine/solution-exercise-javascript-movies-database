@@ -1,0 +1,6 @@
+# Depdendancies
+/node_modules
+npm-debug.log
+
+# Workspace
+.vscode/
